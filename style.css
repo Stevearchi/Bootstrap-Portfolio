@@ -1,3 +1,7 @@
+.mainBackground {
+    background: #dddddd;
+}
+
 .navLink{
     color: lightslategray;
 }
@@ -13,4 +17,13 @@ h1 {
 
 .nav2 {
     margin-right: 40px
+}
+
+.mainArea{
+    margin-left: 10%;
+}
+
+.profileImage{
+    width: 20%;
+    height: 20%;
 }
