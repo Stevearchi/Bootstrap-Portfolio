@@ -1,29 +1,79 @@
-
-header {
-    background-color: red !important;
-    height: 15vh;
+body {
+    color: #777777;
 }
 
-section {
-    background-color: yellow;
-    height: 70vh;
 
+h1 {
+ 
+   color: #ffffff;
+   font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: #ffffff !important;
+    height: 11vh;
+    border-style: solid;
+    border-width: 0px 0px 2px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+}
+
+.main {
+    border-style: solid;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: 1px;
+}
+section {
+   
+
+    background-color: #dddddd;
+    height: 81vh;
+
+}
+
+.button {
+    color: #ffffff;
+    background-color: #4aaaa5;
 }
 
 footer {
-    background-color: blue;
-    height: 15vh;
+    background-color: #666666;
+    height: 8vh;
+    border-style: solid;
+    border-width: 4px 0px 0px;
+    border-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 13px;
 }
 
 ul {
     /* float: right; */
 }
 
-header {
-    background-color: #ffffff;
+img {
+    width: 45% !important;
 }
 
 #profileImage {
     width: 25%;
     margin-right: 1.5em;
+}
+.head{
+    background-color: #4aaaa5;
+}
+
+.imgCard {
+    
+}
+
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 2.3em;
+    }
 }
