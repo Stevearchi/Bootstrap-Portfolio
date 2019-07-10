@@ -1,5 +1,14 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 body {
     color: #777777;
+    /* background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 
@@ -34,7 +43,7 @@ section {
    
 
     background-color: #dddddd;
-    height: 81vh;
+    /* height: 81vh; */
 
 }
 
@@ -54,7 +63,7 @@ footer {
 }
 
 ul {
-    /* float: right; */
+
 }
 
 img {
